@@ -160,7 +160,7 @@ Runner.spriteDefinition = {
     CACTUS_SMALL: {x: 228, y: 2},
     CLOUD: {x: 86, y: 2},
     HORIZON: {x: 2, y: 54},
-    PTERODACTYL: {x: 134, y: 2},
+    // PTERODACTYL: {x: 134, y: 2},
     RESTART: {x: 2, y: 2},
     TEXT_SPRITE: {x: 484, y: 2},
     TREX: {x: 677, y: 2}
@@ -170,7 +170,7 @@ Runner.spriteDefinition = {
     CACTUS_SMALL: {x: 446,y: 2},
     CLOUD: {x: 166,y: 2},
     HORIZON: {x: 2,y: 104},
-    PTERODACTYL: {x: 260,y: 2},
+    // PTERODACTYL: {x: 260,y: 2},
     RESTART: {x: 2,y: 2},
     TEXT_SPRITE: {x: 954,y: 2},
     TREX: {x: 1338,y: 2}
@@ -1425,27 +1425,28 @@ Obstacle.types = [
       new CollisionBox(8, 0, 7, 49),
       new CollisionBox(13, 10, 10, 38)
     ]
-  },
-  {
-    type: 'PTERODACTYL',
-    width: 46,
-    height: 40,
-    yPos: [ 100, 75, 50 ], // Variable height.
-    yPosMobile: [ 100, 50 ], // Variable height mobile.
-    multipleSpeed: 999,
-    minSpeed: 8.5,
-    minGap: 150,
-    collisionBoxes: [
-      new CollisionBox(15, 15, 16, 5),
-      new CollisionBox(18, 21, 24, 6),
-      new CollisionBox(2, 14, 4, 3),
-      new CollisionBox(6, 10, 4, 7),
-      new CollisionBox(10, 8, 6, 9)
-    ],
-    numFrames: 2,
-    frameRate: 1000/6,
-    speedOffset: .8
   }
+  // ,
+  // {
+  //   type: 'PTERODACTYL',
+  //   width: 46,
+  //   height: 40,
+  //   yPos: [ 100, 75, 50 ], // Variable height.
+  //   yPosMobile: [ 100, 50 ], // Variable height mobile.
+  //   multipleSpeed: 999,
+  //   minSpeed: 8.5,
+  //   minGap: 150,
+  //   collisionBoxes: [
+  //     new CollisionBox(15, 15, 16, 5),
+  //     new CollisionBox(18, 21, 24, 6),
+  //     new CollisionBox(2, 14, 4, 3),
+  //     new CollisionBox(6, 10, 4, 7),
+  //     new CollisionBox(10, 8, 6, 9)
+  //   ],
+  //   numFrames: 2,
+  //   frameRate: 1000/6,
+  //   speedOffset: .8
+  // }
 ];
 
 
